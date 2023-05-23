@@ -35,7 +35,8 @@ obj.yell.call(obj2); // 'what'
 // obj1.yell()을 obj2.yell()로 바꾼 효과라고 보면 된다.
 ```
 
-마지막 줄에서 obj.yell.call(obj2)로 this가 가리키는 것을 obj1에서 obj2로 바꾸었다.  
+마지막 줄에서 obj.yell.call(obj2)로 this가 가리키는 것을 obj1에서 obj2로 바꾸었다.
+
 yell은 obj의 메소드인데도 zero 대신에 what이 alert되었다.
 
 ```javascript
